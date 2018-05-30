@@ -1,4 +1,4 @@
-# kroger\_vink.tex
+# kroger\_vink.sty
 
 LaTeX macros for Kröger-Vink notation.
 
@@ -7,7 +7,7 @@ LaTeX macros for Kröger-Vink notation.
 In your document preamble:
 
 ```
-\include{kroger_vink}
+\usepackage{kroger_vink}
 ```
 
 This set of macros provides a command `\kv{A}{B}{C}`. This command takes three arguments:
