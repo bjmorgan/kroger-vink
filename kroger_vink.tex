@@ -1,0 +1,35 @@
+% Kroger-Vink notation macros
+\usepackage{tikz}
+
+\makeatletter
+\newcount\my@repeat@count
+\newcommand{\myrepeat}[2]{%
+  \begingroup
+  \my@repeat@count=\z@
+  \@whilenum\my@repeat@count<#1\do{#2\advance\my@repeat@count\@ne}%
+  \endgroup
+}
+\makeatother
+
+\def\cutMinus-#1{#1}
+\def\cutPlus+#1{#1}
+
+\newcommand{\kvbullet}{\begin{tikzpicture}\draw[fill] (0.07,0.09) circle [radius=0.035];\path (0,0) -- (0.12,0.1);\end{tikzpicture}}
+\newcommand{\kvprime}{\hspace{0.035em}\prime}
+
+\newcommand{\relcharge}[1]{%
+  \ifnum\numexpr#1>0
+    \myrepeat{\cutPlus#1}{\kvbullet}
+  \else
+    \ifnum\numexpr#1<0
+      \hspace{0.05em}\myrepeat{\cutMinus#1}{\kvprime}
+    \else
+      \times
+    \fi
+  \fi
+}
+
+\newcommand{\kv}[3]{%
+  $\text{#1}_\text{#2}^{\relcharge{#3}}$
+}
+\newcommand{\vac}{\ensuremath{V}}
