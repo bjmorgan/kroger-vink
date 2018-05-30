@@ -3,13 +3,13 @@
 LaTeX macros for Kröger-Vink notation.
 
 ## Usage
-
 In your document preamble:
 
 ```
 \usepackage{kroger_vink}
 ```
 
+## Typesetting Kröger-Vink symbols
 This set of macros provides a command `\kv{A}{B}{C}`. This command takes three arguments:
 
 - `A`: Defect species, e.g. `F`.
