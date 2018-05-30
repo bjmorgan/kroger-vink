@@ -1,8 +1,8 @@
 # kroger\_vink.sty
 
-LaTeX macros for Kröger-Vink notation.
+LaTeX macros for Kröger-Vink notation.  
 
-## Usage
+## Usage
 In your document preamble:
 
 ```
