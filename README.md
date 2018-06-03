@@ -29,15 +29,15 @@ The default character for a vacany is an italic capital *V*. This can be changed
 ```
 \usepackage[uppercasevac]{kroger_vink}
 ```
-to produce an uppercase V: *V*.
+to produce an uppercase *V*.
 
 ```
 \usepackage[lowercasevac]{kroger_vink}
 ```
-to produce a lowercase v: *v*.
+to produce a lowercase *v*.
 
 ```
-\usepackage[uppercasevac]{kroger_vink}
+\usepackage[squarevac]{kroger_vink}
 ```
 to produce a square: &#9634;.
 
