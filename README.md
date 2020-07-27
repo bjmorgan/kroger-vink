@@ -23,7 +23,7 @@ The output F<sub>O</sub><sup>&times;</sup> is generated with `\kv{F}{O}{0}`.
 The package includes a `\vac` command, which gives a vacancy symbol, specified in the package options (see below).
 
 The command `\kvv{A}{B}{C}` can be used to typeset 
-an italicised <i>A</i> symbol for a variable or placeholder defect species.\\
+an italicised <i>A</i> symbol for a variable or placeholder defect species.  
 e.g. A generic <i>M</i><sup>3+</sup> cation occupying a lithium site can be typeset using
 `\kvv{M}{Li}{+2}`.
 
