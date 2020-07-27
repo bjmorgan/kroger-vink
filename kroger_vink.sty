@@ -8,7 +8,7 @@
 % 
 \NeedsTeXFormat{LaTeX2e}[1994/06/01]
 \ProvidesPackage{kroger_vink}
-  [2018/05/30 v0.0.2 Kroger-Vink notation package]
+  [2020/07/27 v0.0.3 Kroger-Vink notation package]
 
 \RequirePackage{tikz}
 
@@ -43,6 +43,10 @@
 
 \newcommand{\kv}[3]{%
   $\text{#1}_\text{#2}^{\relcharge{#3}}$%
+}
+
+\newcommand{\kvv}[3]{%
+  $#1_\text{#2}^{\relcharge{#3}}$
 }
 
 % vacancy options

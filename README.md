@@ -42,3 +42,9 @@ to produce a lowercase *v*.
 to produce a square: &#9634;.
 
 Other characters or symbols can be used if specified with the `\kvsetvacsymbol{}` command.
+
+### Variable or placeholder defects
+
+If the defect species A is a variable placeholder the command `\kvv{A}{B}{C}` can be used to typeset 
+an italicised <i>A</i> symbol, e.g. for a generic <i>M</i><sup>3+</sup> cation occupying a lithium site 
+`kvv{M}{Li}{+2}`.
